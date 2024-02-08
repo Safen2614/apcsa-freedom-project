@@ -6,8 +6,8 @@ Project: **3D free roam game**
 
 ---
 
-X/X/X:
-* Text
+2/8/2024:
+made a new project and tests out animations all I have right now is my player walking for a few seconds and then stopping. The [video](https://www.youtube.com/watch?v=FF6kezDQZ7s)
 
 X/X/X:
 * Text
