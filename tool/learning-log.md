@@ -15,6 +15,8 @@ made a new project and tested out animations all I have right now is my player w
 
 2/9/2024:
 * I tested it out and it worked when I pressed w it started to walk but then stopped.
+* I need to fix that in the near future.
+* Why does that happen?
   
 
 
