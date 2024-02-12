@@ -9,7 +9,10 @@ What I first did was to make a new project to test out this animation thing. Aft
 
 ## How I used the animation when the player presses the key w
 
-What I had to do was to make a script that used the animation 
+What I had to do was to make a boolean animator parameter and it was true when the player pressed w and false when they let go. I figured out that I have to uncheck the exist time because it puts a little delay when pressing w. I then added a condition that if `iswalking` is true it is because what we gonna do now is use that in our code. In the code, I just wrote   ```java
+
+
+```
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
