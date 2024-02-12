@@ -9,7 +9,10 @@ What I first did was to make a new project to test out this animation thing. Aft
 
 ## How I used the animation when the player presses the key w
 
-What I had to do was to make a boolean animator parameter and it was true when the player pressed w and false when they let go. I figured out that I have to uncheck the exist time because it puts a little delay when pressing w. I then added a condition that if `iswalking` is true it is because what we gonna do now is use that in our code. In the code, I just wrote   
+What I had to do was to make a boolean animator parameter and it was true when the player pressed w and false when they let go. I figured out that I have to uncheck the exist time because it puts a little delay when pressing w. I then added a condition that if `iswalking` is true it is because what we gonna do now is use that in our code. but before that there are animation states and you have to add a tranistion to each one to connect it that you have to add before coding this stuff in. This is a tranistion, it connects both animations so it can switch inbetween each other.
+
+<img width="167" alt="Screenshot 2024-02-11 at 10 46 14 PM" src="https://github.com/Safen2614/apcsa-freedom-project/assets/91745058/e4d105f1-3b36-4eea-9c13-745e65228ac5">
+In the code, I just wrote   
 
 ```java
 using System.Collections;
