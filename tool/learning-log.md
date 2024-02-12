@@ -17,7 +17,9 @@ made a new project and tested out animations all I have right now is my player w
 * I tested it out and it worked when I pressed w it started to walk but then stopped.
 * I need to fix that in the near future.
 * Why does that happen?
-  
+
+2/10/2024
+I think I know whats happening. I think that when I hold the w key the walking animation is playing the full animation. at the start of the animation its nothing so when you hold the w key it stands still and when you let go it still plays unil the full walking animation is played.
 
 
 <!-- 
