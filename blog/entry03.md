@@ -9,10 +9,40 @@ What I first did was to make a new project to test out this animation thing. Aft
 
 ## How I used the animation when the player presses the key w
 
-What I had to do was to make a boolean animator parameter and it was true when the player pressed w and false when they let go. I figured out that I have to uncheck the exist time because it puts a little delay when pressing w. I then added a condition that if `iswalking` is true it is because what we gonna do now is use that in our code. In the code, I just wrote   ```java
+What I had to do was to make a boolean animator parameter and it was true when the player pressed w and false when they let go. I figured out that I have to uncheck the exist time because it puts a little delay when pressing w. I then added a condition that if `iswalking` is true it is because what we gonna do now is use that in our code. In the code, I just wrote   
+
+```java
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class animstionStateConstroler : MonoBehaviour
+{
+    Animator animator;
+    // Start is called before the first frame update
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+        Debug.Log(animator);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKey("w")) {
+            animator.SetBool("isWalking", true);
+        }
+        if (!Input.GetKey("w"))
+        {
+            animator.SetBool("isWalking", false);
+        }
+    }
+}
 
 
 ```
+
+
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
