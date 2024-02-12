@@ -43,6 +43,11 @@ public class animstionStateConstroler : MonoBehaviour
 ```
 the `void Update()` and the `void Start()` are already added when I started coding. I think its pretty easy to understand the code it just reads when the player hits the w key and lets go. 
 
+### Skills
+the skills I gained is embracing failure because I had a lot of errors trying to fix the animation just stopping but all my solutions failed. I also had the Growth mindset because I needed to have patience and persevere. 
+
+#### EPD
+
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
