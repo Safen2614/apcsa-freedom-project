@@ -46,7 +46,8 @@ the `void Update()` and the `void Start()` are already added when I started codi
 ### Skills
 the skills I gained is embracing failure because I had a lot of errors trying to fix the animation just stopping but all my solutions failed. I also had the Growth mindset because I needed to have patience and persevere. 
 
-#### EPD
+#### EDP
+in the engineering design process I am making a prototype of my game.
 
 [Previous](entry02.md) | [Next](entry04.md)
 
