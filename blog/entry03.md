@@ -41,7 +41,7 @@ public class animstionStateConstroler : MonoBehaviour
     }
 }
 ```
-the `void Update()` and the `void Start()` are already added when I started coding. I think its pretty easy to understand the code it just reads when the player hits the w key and lets go. 
+the `void Update()` and the `void Start()` are already added when I started coding. I think its pretty easy to understand the code it just reads when the player hits the w key and lets go. I think I know whats happening. I think that when I hold the w key the walking animation is playing the full animation. at the start of the animation its nothing so when you hold the w key it stands still and when you let go it still plays unil the full walking animation is played. So I need a solution for that probelm.
 
 ### Skills
 the skills I gained is embracing failure because I had a lot of errors trying to fix the animation just stopping but all my solutions failed. I also had the Growth mindset because I needed to have patience and persevere. 
