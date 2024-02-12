@@ -23,7 +23,6 @@ public class animstionStateConstroler : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        Debug.Log(animator);
     }
 
     // Update is called once per frame
@@ -38,10 +37,8 @@ public class animstionStateConstroler : MonoBehaviour
         }
     }
 }
-
-
 ```
-
+the `void Update()` and the `void Start()` are already added when I started coding. I think its pretty easy to understand the code it just reads when the player hits the w key and lets go. 
 
 [Previous](entry02.md) | [Next](entry04.md)
 
