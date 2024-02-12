@@ -9,7 +9,7 @@ What I first did was to make a new project to test out this animation thing. Aft
 
 ## How I used the animation when the player presses the key w
 
-
+What I had to do was to make a script that used the animation 
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
