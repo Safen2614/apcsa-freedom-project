@@ -4,7 +4,7 @@
 ## using blender
 
 I wanted to try and build a house for our game. So first I drew what my house should look like.  
-![houseimg](https://github.com/Safen2614/apcsa-freedom-project/assets/91745058/0dfb9d8a-16ef-4b5a-804f-36cb88049d65)
+![houseimg](https://github.com/Safen2614/apcsa-freedom-project/assets/91745058/95460822-e435-4393-80a6-156f425ebc2f)
 
 It's a simple drawing but it's something to start from. So then the next question came "How I'm I gonna make this house?" I looked up a blender [tutorial](https://www.youtube.com/watch?v=8XyIYRW_2xk) and learned how to use the UI first.
 
@@ -20,6 +20,11 @@ I wanted to learn how I could merge the 2 vertexes at the center.
 ![grhsfrhgrhg](https://github.com/Safen2614/apcsa-freedom-project/assets/91745058/74896a90-42ed-4959-8d6c-68aa9d605c32)
 
 so I went and tried that and it worked! Now it started looking like a house.
+
+## making a chimney
+From using the things I learned This might be easy. All I had to do was make another cube, make it longer, press e and then  s to scale, and make another like cube on top of what I have and that's it was done.
+![hiugyfhtc](https://github.com/Safen2614/apcsa-freedom-project/assets/91745058/99b24a42-41b2-4838-b204-aae2aa8d6432)
+
 
 [Previous](entry03.md) | [Next](entry05.md)
 
