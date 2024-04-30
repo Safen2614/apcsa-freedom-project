@@ -25,7 +25,6 @@ so I went and tried that and it worked! Now it started looking like a house.
 From using the things I learned This might be easy. All I had to do was make another cube, make it longer, press e and then  s to scale, and make another like cube on top of what I have and that's it was done.
 ![hiugyfhtc](https://github.com/Safen2614/apcsa-freedom-project/assets/91745058/99b24a42-41b2-4838-b204-aae2aa8d6432)
 
-
 [Previous](entry03.md) | [Next](entry05.md)
 
 [Home](../README.md)
