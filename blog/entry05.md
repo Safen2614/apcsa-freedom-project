@@ -38,9 +38,14 @@ public class animationStateController : MonoBehaviour
         }
     }
 }
-
 ```
 
+### Variables
+
+`animator`: This variable of type `Animator` will store a reference to the Animator component attached to the game object this script is attached to. The Animator component controls the animations of the character.
+`IsWalkingHash`: This variable of type `int` will store a pre-calculated hash of the string "isWalking". Hashes are used for faster lookups within Unity.
+
+### Start Function
 
 
 [Previous](entry04.md) | [Next](entry06.md)
