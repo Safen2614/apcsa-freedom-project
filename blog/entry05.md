@@ -46,6 +46,15 @@ public class animationStateController : MonoBehaviour
 `IsWalkingHash`: This variable of type `int` will store a pre-calculated hash of the string "isWalking". Hashes are used for faster lookups within Unity.
 
 ### Start Function
+The start function is called only once when the game object is first created. The `animator = GetComponent<Animator>()` retrieves the Animator component attached to the same game object as this script and stores it in the animator variable.
+
+### Update Function
+This function is called every frame during the game. `bool isWalking = animator.GetBool("isWalking"):` This line checks the current value of the boolean parameter named "isWalking" in the Animator and stores it in the isWalking variable.
+`bool forwardPressed = Input.GetKey("w")`: This line checks if the "W" key is currently pressed and stores the result (true or false) in the `forwardPressed` variable.
+The following two if statements control the animation based on player input:
+    * The first if statement checks if the character is not currently walking (`!isWalking`) and the player is pressing forward (`forwardPressed`). If both conditions are true, it sets the "isWalking" parameter in the Animator to true, triggering the walking animation.
+    * The second if statement checks if the character is currently walking (`isWalking`) and the player is not pressing forward (`!forwardPressed`). If both conditions are true, it sets the "isWalking" parameter in the Animator to false, triggering the idle animation (or whichever animation is set as the default).
+
 
 
 [Previous](entry04.md) | [Next](entry06.md)
